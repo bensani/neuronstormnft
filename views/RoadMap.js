@@ -2,7 +2,7 @@ import React from "react";
 import {Fade} from "react-reveal";
 function RoadMap() {
   return (
-    <div className="bg-blue-default lg:py-40 md:py-12 py-8">
+    <div className="bg-blue-default px-4 lg:py-40 md:py-12 py-8">
       <div className="flex w-full justify-center">
         <div className="max-w-7xl m-auto text-center">
           <div className="md:px-12 px-4">
@@ -42,7 +42,7 @@ function RoadMap() {
         </div>
       </div>
       <div className=" w-full flex justify-center relative">
-        <div className="absolute -top-5 left-28">
+        <div className=" hidden md:block absolute -top-5 left-28">
           <Fade left>
             <img src="./images/Group 95.png" alt="" className=" w-full" />
           </Fade>
@@ -52,7 +52,7 @@ function RoadMap() {
             <img src="./images/Mask Group.png" alt="" />
           </Fade>
         </div>
-        <div className="absolute -bottom-5 right-28">
+        <div className="hidden md:block absolute -bottom-5 right-28">
           <Fade right>
             <img src="./images/Group 95.png" alt="" className=" w-full" />
           </Fade>

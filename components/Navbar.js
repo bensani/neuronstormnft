@@ -3,7 +3,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Navbar = () => {
   return (
-    <div className="w-full bg-blue-default py-10">
+    <div className="w-full bg-blue-default py-10 px-4 overflow-hidden">
       <div className="max-w-7xl mx-auto  py-3 border-b-2 border-Offwhite-default">
         <div className="flex justify-between">
           <div className="flex self-center">
@@ -29,7 +29,7 @@ const Navbar = () => {
               {socialLinks.map((item, index) => {
                 return (
                   <li key={index} className="mx-2">
-                    <a>
+                    <a href={item.url} target="_blank">
                       <img src={item.socialIcon} alt="" />
                     </a>
                   </li>
@@ -66,21 +66,21 @@ const socialLinks = [
   {
     id: 1,
     socialIcon: "/images/discord.png",
-    url: "/"
+    url: "https:://discord.gg/7f465dkQve"
   },
   {
     id: 2,
     socialIcon: "/images/twitter.png",
-    url: "/"
+    url: "https://twitter.com/NeuronStormNFT"
   },
   {
     id: 3,
     socialIcon: "/images/instagram.png",
-    url: "/"
+    url: "https://instagram.com/neuronstormnft"
   },
   {
     id: 4,
     socialIcon: "/images/OpenSea.png",
-    url: "/"
+    url: "https://opensea.io"
   }
 ];

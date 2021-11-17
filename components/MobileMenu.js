@@ -55,27 +55,27 @@ const MobileMenu = () => {
           />
         </div>
         <div className="flex flex-col pt-10 px-4">
-          <a className="text-xl text-Offwhite-default transition-all hover:text-secondary py-3.5 border-b border-primary">
+          <span className="text-xl text-Offwhite-default transition-all hover:text-secondary py-3.5 border-b border-primary">
             <AnchorLink href="#Home">Home</AnchorLink>
-          </a>
+          </span>
 
-          <a className="text-xl text-Offwhite-default transition-all hover:text-secondary py-3.5 border-b border-primary">
+          <span className="text-xl text-Offwhite-default transition-all hover:text-secondary py-3.5 border-b border-primary">
             <AnchorLink href="#Roadmap">Roadmap</AnchorLink>
-          </a>
-          <a className="text-xl text-Offwhite-default transition-all hover:text-secondary py-3.5 border-b border-primary">
+          </span>
+          <span className="text-xl text-Offwhite-default transition-all hover:text-secondary py-3.5 border-b border-primary">
             <AnchorLink href="#Concept">Concept</AnchorLink>
-          </a>
+          </span>
           <div className=" flex justify-between text-Offwhite-default py-10 ">
-            <a href="#">
+            <a href="https:://discord.gg/7f465dkQve" target="_blank">
               <img src="/images/discord.png" alt="" className="w-8 h-7" />
             </a>
-            <a href="#">
+            <a href="https://twitter.com/NeuronStormNFT" target="_blank">
               <img src="/images/twitter.png" alt="" className="w-8 h-7" />
             </a>
-            <a href="#">
+            <a href="https://instagram.com/neuronstormnft" target="_blank">
               <img src="/images/instagram.png" alt="" className="w-8 h-7" />
             </a>
-            <a href="#">
+            <a href="https://opensea.io/" target="_blank">
               <img src="/images/OpenSea.png" alt="" className="w-9 h-8" />
             </a>
           </div>

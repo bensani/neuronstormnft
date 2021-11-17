@@ -3,7 +3,7 @@ import Card from "../components/Card";
 import {Fade} from "react-reveal";
 function BeforeLunch() {
   return (
-    <div className="bg-blue-default lg:py-24 md:py-12 py-8">
+    <div className="bg-blue-default px-4 lg:py-24 md:py-12 py-8">
       <div className="flex w-full justify-center">
         <div className="max-w-4xl m-auto text-center">
           <div className="md:px-12 px-4">
@@ -42,7 +42,7 @@ function BeforeLunch() {
         </div>
       </div>
       <div className=" w-full flex justify-center relative">
-        <div className="absolute  -top-5 right-28">
+        <div className=" hidden md:block absolute  -top-5 right-28">
           <Fade right>
             <img src="./images/Group 95.png" alt="" className=" w-full" />
           </Fade>
@@ -52,7 +52,7 @@ function BeforeLunch() {
             <img src="./images/Mask Group2.png" alt="" className="w-full" />
           </Fade>
         </div>
-        <div className="absolute -bottom-5  left-28">
+        <div className="hidden md:block absolute -bottom-5  left-28">
           <Fade left>
             <img src="./images/Group 95.png" alt="" className=" w-full" />
           </Fade>
