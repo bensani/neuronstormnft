@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,600;0,700;1,500;1,600;1,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.heading-title {
+  @apply lg:text-6xl md:text-5xl text-4xl font-bold text-green-default mb-4;
+}
+.footer-bg {
+  background-image: url("../public/images/IMG_20211108_052749_877 1.png");
+  background-color: #0c174b;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mobile-bg {
+  background-image: url("/images/mobile-ap-bg.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.border_bottom {
+  border: 1px solid rgba(251, 250, 245, 0.2);
+}
+.border-bottom-1:before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 20px;
+  border-bottom: 5px solid #eee;
+}
+.inner-container {
+  flex: 0 0 50%;
+}
+:root {
+  --transition: all 0.3s linear;
+}
+.customShadow {
+  background: #46fc6f;
+  box-shadow: 0px 0px 40px rgba(70, 252, 111, 0.3);
+}
+.skewBtn {
+  background: #46fc6f;
+  box-shadow: 0px 0px 40px rgba(70, 252, 111, 0.3);
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 27px;
+  color: #090d4b;
+}
+
+.stroke {
+  -webkit-text-stroke: 2px #46fc6f;
+  text-stroke: 3px #46fc6f;
+}
+@media screen and (max-width: 768px) {
+  .stroke {
+    -webkit-text-stroke: 1.5px #46fc6f;
+    text-stroke: 2px #46fc6f;
+  }
+}
