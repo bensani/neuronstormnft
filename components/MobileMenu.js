@@ -54,7 +54,7 @@ const MobileMenu = () => {
             height={20}
           />
         </div>
-        <div className="flex flex-col pt-10 px-4">
+        <div onClick={toggleDrawer} className="flex flex-col pt-10 px-4">
           <span className="text-xl text-Offwhite-default transition-all hover:text-secondary py-3.5 border-b border-primary">
             <AnchorLink href="#Home">Home</AnchorLink>
           </span>
