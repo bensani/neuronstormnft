@@ -69,7 +69,7 @@ const MobileMenu = () => {
             <a href="https://discord.gg/7f465dkQve" target="_blank">
               <img src="/images/discord.png" alt="" className="w-8 h-7" />
             </a>
-            <a href="#">
+            <a href="https://www.twitter.com/NeuronStormNFT">
               <img src="/images/twitter.png" alt="" className="w-8 h-7" />
             </a>
             <a href="https://www.instagram.com/neuronstorm/" target="_blank">

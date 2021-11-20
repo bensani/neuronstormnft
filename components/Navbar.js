@@ -71,7 +71,7 @@ const socialLinks = [
   {
     id: 2,
     socialIcon: "/images/twitter.png",
-    url: "/"
+    url: "https://www.twitter.com/NeuronStormNFT"
   },
   {
     id: 3,
