@@ -66,16 +66,16 @@ const MobileMenu = () => {
             <AnchorLink href="#Concept">Concept</AnchorLink>
           </span>
           <div className=" flex justify-between text-Offwhite-default py-10 ">
-            <a href="https:://discord.gg/7f465dkQve" target="_blank">
+            <a href="https://discord.gg/7f465dkQve" target="_blank">
               <img src="/images/discord.png" alt="" className="w-8 h-7" />
             </a>
-            <a href="https://twitter.com/NeuronStormNFT" target="_blank">
+            <a href="#">
               <img src="/images/twitter.png" alt="" className="w-8 h-7" />
             </a>
-            <a href="https://instagram.com/neuronstormnft" target="_blank">
+            <a href="https://www.instagram.com/neuronstorm/" target="_blank">
               <img src="/images/instagram.png" alt="" className="w-8 h-7" />
             </a>
-            <a href="https://opensea.io/" target="_blank">
+            <a href="#">
               <img src="/images/OpenSea.png" alt="" className="w-9 h-8" />
             </a>
           </div>

@@ -14,10 +14,12 @@ const Index = () => {
         <div id="Roadmap">
           <RoadMap />
         </div>
+
+        <BeforeLunch />
+
         <div id="Concept">
-          <BeforeLunch />
+          <NeuronStorm />
         </div>
-        <NeuronStorm />
       </Layout>
     </div>
   );

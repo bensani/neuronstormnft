@@ -15,7 +15,7 @@ function Timer({expiryTimestamp}) {
             {days}
           </span>
 
-          <span className=" stroke pl-1.5 font-bold flex self-center  text-lg md:text-4xl ">
+          <span className=" stroke pl-1.5 font-bold flex self-center  text-lg md:text-2xl ">
             days
           </span>
         </div>
@@ -27,7 +27,7 @@ function Timer({expiryTimestamp}) {
             {hours}
           </span>
 
-          <span className=" stroke pl-1.5 font-bold flex self-center  text-lg md:text-4xl ">
+          <span className=" stroke pl-1.5 font-bold flex self-center  text-lg md:text-2xl ">
             hours
           </span>
         </div>
@@ -40,15 +40,23 @@ function Timer({expiryTimestamp}) {
             {minutes}
           </span>
 
-          <span className=" stroke pl-1.5 font-bold flex self-center  text-lg md:text-4xl ">
+          <span className=" stroke pl-1.5 font-bold flex self-center  text-lg md:text-2xl ">
             minutes
           </span>
         </div>
         <div>
-          <span className=" text-green-default pt-1 pl-1 pr-1 font-bold flex self-center text-lg  md:text-3xl ">
-            Left
+          <span className=" block stroke text-lg md:text-4xl">:</span>
+        </div>
+        <div className="mx-2 flex ">
+          <span className=" w-5 md:w-12  stroke flex self-center font-bold text-lg md:text-4xl leading-3">
+            {seconds}
+          </span>
+
+          <span className=" stroke pl-1.5 font-bold flex self-center  text-lg md:text-2xl ">
+            seconds
           </span>
         </div>
+       
       </div>
     </div>
   );

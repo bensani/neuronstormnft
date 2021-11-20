@@ -1,10 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 
 import Carusel from "../components/Carusel";
 import Timer from "../components/Timer";
 function Header() {
   const time = new Date();
-  time.setSeconds(time.getSeconds() + 360000);
+  time.setSeconds(time.getSeconds() + 1055000);
+
+  const [qunaity, setQuanityt] = useState(1);
+  const eth = 0.03;
+  const total = eth * qunaity;
   return (
     <div className="bg-blue-default px-8">
       <div className="max-w-7xl m-auto  ">
@@ -27,12 +31,9 @@ function Header() {
                   <p className=" font-normal md:font-extrabold text-xs text-white-light mb-3">
                     Note: MetaMask Wallet is needed to MINT
                   </p>
-                  <a className="skewBtn flex justify-center px-16 py-4 cursor-pointer mb-3">
+                  <a className="skewBtn flex justify-center px-16 py-4 cursor-pointer">
                     MINT
                   </a>
-                  <p className=" font-normal md:font-semibold text-sm text-white-light mb-3">
-                    You can MINT max 20 NFT per transaction.
-                  </p>
                 </div>
               </div>
               <div className="flex justify-center">
@@ -41,9 +42,14 @@ function Header() {
                     MINTS number
                   </p>
                   <div className="flex justify-center">
-                    <a className="customShadow  cursor-pointer text-xl text-blue-default font-extrabold rounded-full px-6 py-3.5">
-                      1
-                    </a>
+                    <input
+                      type="text"
+                      placeholder=""
+                      maxLength="2"
+                      value={qunaity}
+                      onChange={e => setQuanityt(e.target.value)}
+                      className="customShadow w-12 h-10  cursor-pointer text-xl text-blue-default font-extrabold rounded-full focus-within:outline-none text-center py-3.5"
+                    />
                   </div>
                 </div>
               </div>
@@ -55,7 +61,7 @@ function Header() {
                   <a className="customShadow cursor-pointer text-xl text-blue-default font-extrabold rounded-md px-3 py-3.5">
                     Price <span className="text-xs">(ETH)</span> :{" "}
                     <span className="text-lg text-white-light bg-green-lightgreen px-2 py-1 font-normal">
-                      0.00
+                      {total.toFixed(2)}
                     </span>
                   </a>
                 </div>

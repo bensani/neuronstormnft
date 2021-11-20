@@ -66,21 +66,21 @@ const socialLinks = [
   {
     id: 1,
     socialIcon: "/images/discord.png",
-    url: "https:://discord.gg/7f465dkQve"
+    url: "https://discord.gg/7f465dkQve"
   },
   {
     id: 2,
     socialIcon: "/images/twitter.png",
-    url: "https://twitter.com/NeuronStormNFT"
+    url: "/"
   },
   {
     id: 3,
     socialIcon: "/images/instagram.png",
-    url: "https://instagram.com/neuronstormnft"
+    url: "https://www.instagram.com/neuronstorm/"
   },
   {
     id: 4,
     socialIcon: "/images/OpenSea.png",
-    url: "https://opensea.io"
+    url: "/"
   }
 ];
