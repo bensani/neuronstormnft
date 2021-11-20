@@ -22,7 +22,7 @@ const Carusel = () => {
   };
   return (
     <div className="relative">
-      <button className=" absolute -left-5 top-44 z-50 hidden md:block" onClick={previous}>
+      <button className=" absolute -left-5 top-[50%] slider-btn z-50 md:block" onClick={previous}>
         <img src="/images/leftArrow.png" alt="" />
       </button>
 
@@ -36,7 +36,7 @@ const Carusel = () => {
         })}
       </Slider>
 
-      <button className=" absolute -right-5 top-44 z-50 hidden md:block" onClick={next}>
+      <button className=" absolute -right-5 slider-btn top-[50%] z-50 md:block" onClick={next}>
         <img src="/images/rightArrow.png" alt="" />
       </button>
     </div>
