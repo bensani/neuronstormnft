@@ -25,7 +25,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="flex self-center">
-            <ul className="flex">
+            <ul className="flex items-center">
               {socialLinks.map((item, index) => {
                 return (
                   <li key={index} className="mx-2">
