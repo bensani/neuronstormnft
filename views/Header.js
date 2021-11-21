@@ -3,8 +3,9 @@ import React, {useState} from "react";
 import Carusel from "../components/Carusel";
 import Timer from "../components/Timer";
 function Header() {
-  const time = new Date();
-  time.setSeconds(time.getSeconds() + 1055000);
+
+  const time = new Date('November 30, 2021 06:00');
+  // time.setSeconds(time.getSeconds() + 1055000);
 
   const [qunaity, setQuanityt] = useState(1);
   const eth = 0.03;
