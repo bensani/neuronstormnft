@@ -26,15 +26,24 @@ function Header() {
             <div>
               <Timer expiryTimestamp={time} />
             </div>
+            <div className={'pb-6 pt-2 flex justify-center'}>
+              <button className="skewBtn text-xs mb-4 max-w-2xl justify-center px-8 py-4 sm:px-11 cursor-pointer">
+                Connect Wallet
+              </button>
+
+            </div>
             <div className="flex flex-col md:flex-row justify-center md:justify-between">
               <div className="flex justify-center">
                 <div className="mb-8 md:mb-0">
                   <p className=" font-normal md:font-extrabold text-xs text-white-light mb-3">
                     Note: MetaMask Wallet is needed to MINT
                   </p>
-                  <a className="skewBtn flex justify-center px-16 py-4 cursor-pointer">
+                  <a className="skewBtn mb-4 flex justify-center px-16 py-4 cursor-pointer">
                     MINT
                   </a>
+                  <p className=" font-normal md:font-extrabold text-xs text-green-default mb-3">
+                    You can MINT max 20 NFT per transaction
+                  </p>
                 </div>
               </div>
               <div className="flex justify-center">
