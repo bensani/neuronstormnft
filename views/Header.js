@@ -4,7 +4,7 @@ import Carusel from "../components/Carusel";
 import Timer from "../components/Timer";
 function Header() {
 
-  const time = new Date('December 5, 2021 06:00');
+  const time = new Date('December 5, 2021 22:00');
   // time.setSeconds(time.getSeconds() + 1055000);
 
   const [qunaity, setQuanityt] = useState(1);
