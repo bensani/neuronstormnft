@@ -75,7 +75,7 @@ const MobileMenu = () => {
             <a href="https://www.instagram.com/neuronstorm/" target="_blank">
               <img src="/images/instagram.png" alt="" className="w-8 h-7" />
             </a>
-            <a href="#">
+            <a href="https://opensea.io/collection/neuron-storm-nft">
               <img src="/images/OpenSea.png" alt="" className="w-9 h-8" />
             </a>
           </div>

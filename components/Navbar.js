@@ -81,6 +81,6 @@ const socialLinks = [
   {
     id: 4,
     socialIcon: "/images/OpenSea.png",
-    url: "/"
+    url: "https://opensea.io/collection/neuron-storm-nft"
   }
 ];
