@@ -72,6 +72,7 @@ const MobileMenu = () => {
             <a href="https://www.twitter.com/NeuronStormNFT">
               <img src="/images/twitter.png" alt="" className="w-8 h-7" />
             </a>
+
             <a href="https://www.instagram.com/neuronstorm/" target="_blank">
               <img src="/images/instagram.png" alt="" className="w-8 h-7" />
             </a>
